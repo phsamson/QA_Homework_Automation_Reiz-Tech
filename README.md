@@ -56,4 +56,3 @@ npx playwright show-report
   ```sh
   npx playwright test --headed
   ```
-```
