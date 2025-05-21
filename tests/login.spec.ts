@@ -3,6 +3,15 @@ import { test, expect } from '@playwright/test';
 // Import the LoginPage class
 import { LoginPage } from '../pages/loginPage';
 
+// This hook runs before each test in this file
+// and is used to visit the login page each test
+test.beforeEach(async ({ page }) => {
+    const loginPage = new LoginPage(page);
+    // BaseURL is set in playwright.config.ts
+    // so we can just use .goto('/') to navigate to the main/login page
+    await loginPage.goto(); // Navigate to the Login page
+});
+
 test('should login successfully with valid credentials and can navigate to the Profile page', async ({ page }) => {
     const loginPage = new LoginPage(page);
     await loginPage.login('wodahs', 'Android12345!');
