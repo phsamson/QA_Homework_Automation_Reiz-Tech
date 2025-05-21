@@ -24,6 +24,8 @@ npx playwright install
 
 ### 4. Configure Your Test User
 - Manually register a test user at [https://buggy.justtestit.org/](https://buggy.justtestit.org/) before running the script.
+-- For testing purposes, I've configured a registered account in the test.
+--- Username: wodahs | Password: Android12345!
 - Update the username and password in your test files if needed.
 
 ### 5. Run All Tests
