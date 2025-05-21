@@ -35,9 +35,13 @@ npx playwright test
 ```
 
 ### 6. Run a Specific Test File
-To run only the profile update test:
+To run only the profile test spec:
 ```sh
 npx playwright test profile.spec.ts
+```
+or if you prefer to run only the login test spec:
+```sh
+npx playwright test login.spec.ts
 ```
 
 ### 7. View Test Results
