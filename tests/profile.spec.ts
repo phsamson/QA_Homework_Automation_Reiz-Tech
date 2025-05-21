@@ -13,6 +13,8 @@ test.beforeEach(async ({ page }) => {
     await page.goto('/'); // Navigate to the Login page
 });
 
+// This hook runs after each test in this file
+// and is used to reset the Additional Info form after each test
 test.afterEach(async ({ page }) => {
     // Create an instance of the ProfilePage class
     const profilePage = new ProfilePage(page);
