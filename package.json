@@ -1,0 +1,22 @@
+{
+  "name": "qa_homework_automation_reiz-tech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phsamson/QA_Homework_Automation_Reiz-Tech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phsamson/QA_Homework_Automation_Reiz-Tech/issues"
+  },
+  "homepage": "https://github.com/phsamson/QA_Homework_Automation_Reiz-Tech#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.21"
+  }
+}
